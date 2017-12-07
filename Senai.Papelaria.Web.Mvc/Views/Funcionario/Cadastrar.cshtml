@@ -1,0 +1,75 @@
+@model Senai.Papelaria.Dominio.Dominios.Funcionario 
+
+@{   
+
+    ViewData["Title"] = "Cadastrar";   
+
+}   
+
+<h2>Cadastrar</h2>   
+
+<h4>Funcionario</h4>   
+
+<hr />   
+
+<div class="row">   
+
+    <div class="col-md-4">   
+
+        <form asp-action="Cadastrar">   
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>   
+
+            <div class="form-group">   
+
+                <label asp-for="NomeFuncionario" class="control-label"></label>   
+
+                <input asp-for="NomeFuncionario" class="form-control" required />   
+
+                <span asp-validation-for="NomeFuncionario" class="text-danger"></span>   
+
+            </div>   
+
+            <div class="form-group">   
+
+                <label asp-for="Cargo" class="control-label"></label>   
+
+                <input asp-for="Cargo" class="form-control" required />   
+
+                <span asp-validation-for="Cargo" class="text-danger"></span>   
+
+            </div>
+
+            <div class="form-group">   
+
+                <label asp-for="Departamento" class="control-label"></label>   
+
+                <input asp-for="Departamento" class="form-control" required />   
+
+                <span asp-validation-for="Departamento" class="text-danger"></span>   
+
+            </div>
+
+            <div class="form-group">   
+
+                <input type="submit" value="Cadastrar" class="btn btn-default" />   
+
+            </div>   
+
+        </form>   
+
+    </div>   
+
+</div>   
+
+<div>   
+
+    <a asp-action="Index">Voltar</a>   
+
+</div>   
+
+@section Scripts {   
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}   
+
+}  

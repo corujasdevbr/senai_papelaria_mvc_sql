@@ -1,0 +1,79 @@
+@model Senai.Papelaria.Dominio.Dominios.Funcionario 
+
+
+
+@{   
+
+    ViewData["Title"] = "Detalhes";   
+
+}   
+
+<h2>Detalhes</h2>   
+
+<div>   
+
+    <h4>Funcionario</h4>   
+
+    <hr />   
+
+    <dl class="dl-horizontal">   
+
+        <dt>   
+
+            @Html.DisplayNameFor(model => model.NomeFuncionario)   
+
+        </dt>   
+
+        <dd>   
+
+            @Html.DisplayFor(model => model.NomeFuncionario)   
+
+        </dd>   
+ 
+
+    </dl>   
+
+    <dl class="dl-horizontal">   
+
+        <dt>   
+
+            @Html.DisplayNameFor(model => model.Cargo)   
+
+        </dt>   
+
+        <dd>   
+
+            @Html.DisplayFor(model => model.Cargo)   
+
+        </dd>   
+ 
+
+    </dl>   
+    
+    <dl class="dl-horizontal">   
+
+        <dt>   
+
+            @Html.DisplayNameFor(model => model.Departamento)   
+
+        </dt>   
+
+        <dd>   
+
+            @Html.DisplayFor(model => model.Departamento)   
+
+        </dd>   
+ 
+
+    </dl>  
+
+
+</div>   
+
+<div>   
+
+    <a asp-action="Editar" asp-route-id="@Model.IdFuncionario">Editar</a> |   
+
+    <a asp-action="Index">Voltar</a>   
+
+</div>

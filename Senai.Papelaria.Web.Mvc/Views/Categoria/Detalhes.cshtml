@@ -1,0 +1,44 @@
+@model Senai.Papelaria.Dominio.Dominios.Categoria 
+
+
+
+@{   
+
+    ViewData["Title"] = "Detalhes";   
+
+}   
+
+<h2>Detalhes</h2>   
+
+<div>   
+
+    <h4>Aluno</h4>   
+
+    <hr />   
+
+    <dl class="dl-horizontal">   
+
+        <dt>   
+
+            @Html.DisplayNameFor(model => model.Titulo)   
+
+        </dt>   
+
+        <dd>   
+
+            @Html.DisplayFor(model => model.Titulo)   
+
+        </dd>   
+ 
+
+    </dl>   
+
+</div>   
+
+<div>   
+
+    <a asp-action="Editar" asp-route-id="@Model.IdCategoria">Editar</a> |   
+
+    <a asp-action="Index">Voltar</a>   
+
+</div>

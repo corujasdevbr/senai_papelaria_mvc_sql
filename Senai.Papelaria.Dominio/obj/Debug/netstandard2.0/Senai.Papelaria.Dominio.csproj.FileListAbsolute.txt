@@ -1,0 +1,8 @@
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\bin\Debug\netstandard2.0\Senai.Papelaria.Dominio.deps.json
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\bin\Debug\netstandard2.0\Senai.Papelaria.Dominio.dll
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\bin\Debug\netstandard2.0\Senai.Papelaria.Dominio.pdb
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\obj\Debug\netstandard2.0\Senai.Papelaria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\obj\Debug\netstandard2.0\Senai.Papelaria.Dominio.AssemblyInfoInputs.cache
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\obj\Debug\netstandard2.0\Senai.Papelaria.Dominio.AssemblyInfo.cs
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\obj\Debug\netstandard2.0\Senai.Papelaria.Dominio.dll
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\Senai.Papelaria.Dominio\obj\Debug\netstandard2.0\Senai.Papelaria.Dominio.pdb

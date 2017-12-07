@@ -1,0 +1,53 @@
+@model IEnumerable<Senai.Papelaria.Dominio.Dominios.Funcionario>       
+
+@{   
+    ViewData["Title"] = "Index";   
+}   
+
+<h2>Index</h2>   
+<p>   
+    <a asp-action="Cadastrar">Cadastrar Novo Funcionario</a>   
+</p>   
+
+<table class="table">   
+    <thead>   
+        <tr>   
+            <th>   
+                @Html.DisplayNameFor(model => model.NomeFuncionario)   
+            </th>   
+            <th>   
+                @Html.DisplayNameFor(model => model.Cargo)   
+            </th>  
+             <th>   
+                @Html.DisplayNameFor(model => model.Departamento)   
+            </th>  
+            
+            <th></th>   
+        </tr>   
+    </thead>   
+
+    <tbody>   
+
+        @foreach (var item in Model)  
+        {   
+            <tr>   
+                <td>   
+                    @Html.DisplayFor(modelItem => item.NomeFuncionario)   
+                </td>  
+                <td>   
+                    @Html.DisplayFor(modelItem => item.Cargo)   
+                </td>  
+                <td>   
+                    @Html.DisplayFor(modelItem => item.Departamento)   
+                </td> 
+                <td>   
+                    <a asp-action="Editar" asp-route-id="@item.IdFuncionario">Editar</a> |   
+                    <a asp-action="Detalhes" asp-route-id="@item.IdFuncionario">Detalhes</a> |   
+                    <a asp-action="Excluir" asp-route-id="@item.IdFuncionario">Excluir</a>   
+                </td>   
+            </tr>   
+        }   
+
+    </tbody>   
+
+</table>

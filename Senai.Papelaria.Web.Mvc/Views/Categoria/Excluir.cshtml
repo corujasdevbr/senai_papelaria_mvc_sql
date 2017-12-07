@@ -1,0 +1,51 @@
+@model Senai.Papelaria.Dominio.Dominios.Categoria 
+
+
+
+@{   
+
+    ViewData["Title"] = "Excluir";   
+
+}   
+
+<h2>Excluir</h2>   
+
+<h3>Deseja realmente excluir a Categoria?</h3>   
+
+<div>   
+
+    <h4>Categoria</h4>   
+
+    <hr />   
+
+    <dl class="dl-horizontal">   
+
+        <dt>   
+
+            @Html.DisplayNameFor(model => model.Titulo)   
+
+        </dt>   
+
+        <dd>   
+
+            @Html.DisplayFor(model => model.Titulo)   
+
+        </dd>   
+
+         
+
+    </dl>   
+
+   
+
+    <form asp-action="Excluir">   
+
+        <input type="hidden" asp-for="IdCategoria" />   
+
+        <input type="submit" value="Excluir" class="btn btn-default" /> |   
+
+        <a asp-action="Index">Voltar</a>   
+
+    </form>   
+
+</div>  

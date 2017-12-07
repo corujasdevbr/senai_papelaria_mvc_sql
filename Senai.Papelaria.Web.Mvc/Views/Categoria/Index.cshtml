@@ -1,0 +1,41 @@
+@model IEnumerable<Senai.Papelaria.Dominio.Dominios.Categoria>       
+
+@{   
+    ViewData["Title"] = "Index";   
+}   
+
+<h2>Index</h2>   
+<p>   
+    <a asp-action="Cadastrar">Cadastrar Nova Categoria</a>   
+</p>   
+
+<table class="table">   
+    <thead>   
+        <tr>   
+            <th>   
+                @Html.DisplayNameFor(model => model.Titulo)   
+            </th>   
+            <th></th>   
+        </tr>   
+    </thead>   
+
+    <tbody>   
+
+        @foreach (var item in Model)  
+        {   
+            <tr>   
+                <td>   
+                    @Html.DisplayFor(modelItem => item.Titulo)   
+                </td>   
+
+                <td>   
+                    <a asp-action="Editar" asp-route-id="@item.IdCategoria">Editar</a> |   
+                    <a asp-action="Detalhes" asp-route-id="@item.IdCategoria">Detalhes</a> |   
+                    <a asp-action="Excluir" asp-route-id="@item.IdCategoria">Excluir</a>   
+                </td>   
+            </tr>   
+        }   
+
+    </tbody>   
+
+</table>

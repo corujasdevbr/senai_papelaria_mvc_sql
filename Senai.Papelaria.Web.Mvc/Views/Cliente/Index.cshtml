@@ -1,0 +1,58 @@
+@model IEnumerable<Senai.Papelaria.Dominio.Dominios.Cliente>       
+
+@{   
+    ViewData["Title"] = "Index";   
+}   
+
+<h2>Index</h2>   
+<p>   
+    <a asp-action="Cadastrar">Cadastrar Novo Cliente</a>   
+</p>   
+
+<table class="table">   
+    <thead>   
+        <tr>   
+            <th>   
+                @Html.DisplayNameFor(model => model.NomeCliente)   
+            </th>   
+            <th>   
+                @Html.DisplayNameFor(model => model.Email)   
+            </th>  
+             <th>   
+                @Html.DisplayNameFor(model => model.Cpf)   
+            </th>  
+             <th>   
+                @Html.DisplayNameFor(model => model.DataCadastro)   
+            </th> 
+            <th></th>   
+        </tr>   
+    </thead>   
+
+    <tbody>   
+
+        @foreach (var item in Model)  
+        {   
+            <tr>   
+                <td>   
+                    @Html.DisplayFor(modelItem => item.NomeCliente)   
+                </td>  
+                <td>   
+                    @Html.DisplayFor(modelItem => item.Email)   
+                </td>  
+                <td>   
+                    @Html.DisplayFor(modelItem => item.Cpf)   
+                </td>  
+                <td>   
+                    @Html.DisplayFor(modelItem => item.DataCadastro)   
+                </td>  
+                <td>   
+                    <a asp-action="Editar" asp-route-id="@item.IdCliente">Editar</a> |   
+                    <a asp-action="Detalhes" asp-route-id="@item.IdCliente">Detalhes</a> |   
+                    <a asp-action="Excluir" asp-route-id="@item.IdCliente">Excluir</a>   
+                </td>   
+            </tr>   
+        }   
+
+    </tbody>   
+
+</table>

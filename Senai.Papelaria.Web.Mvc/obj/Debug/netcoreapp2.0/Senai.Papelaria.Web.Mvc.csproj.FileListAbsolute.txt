@@ -1,0 +1,14 @@
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.deps.json
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.runtimeconfig.json
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.runtimeconfig.dev.json
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.dll
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.pdb
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Dominio.dll
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Repositorio.dll
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Dominio.pdb
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\bin\Debug\netcoreapp2.0\Senai.Papelaria.Repositorio.pdb
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\obj\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\obj\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.AssemblyInfoInputs.cache
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\obj\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.AssemblyInfo.cs
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\obj\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.dll
+C:\Users\fernando.henrique\backend\Senai.Papelaria.Solution\senai.papelaria.web.mvc\obj\Debug\netcoreapp2.0\Senai.Papelaria.Web.Mvc.pdb
